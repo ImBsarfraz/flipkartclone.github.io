@@ -1,0 +1,739 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone For Online Shopping</title>
+    <link rel="icon" href="assets\flipkart.png" type="image/x-icon" class="flip_logo">
+
+    <link rel="stylesheet" href="flipkart.css">
+    <script src="https://kit.fontawesome.com/e557400919.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="header_left">
+            <a href="#">Flipkart</a>
+            <div class="header_left_P">
+                <p><a href="#">Explore</a><span><b><i>Plus<i class="fa-solid fa-plus"></i></i></b></span></p>
+            </div>
+        </div>
+
+        <div class="header_center">
+            <input type="text"class="header_center_input" placeholder="Search For Products, Brands And More"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- login button, more -->
+
+        <div class="login">
+            <a href="#" class="login_btn">Login</a>
+            <div class="login_dropdown none">
+                <ul class="login_dropdown_list">  
+                  <li class="login_drop_li sign_li flex">
+                    <p class="new_login">New Customer</p>
+                    <a href="sign_up.html" class="sign_up"> sign_up</a>
+                  </li>
+
+                  <li class="login_drop_li"><i class="fa-solid fa-circle-user"></i>My Profile</li>
+                  <li class="login_drop_li"><i class="fa-solid fa-square-plus"></i>Flipkart Plus Zone</li>
+                  <li class="login_drop_li"><i class="fa-solid fa-bag-shopping"></i>Order</li>
+                  <li class="login_drop_li"><i class="fa-solid fa-heart"></i>Wishlist</li>
+                  <li class="login_drop_li"><i class="fa-solid fa-money-bill-1"></i>Rewards</li>
+                  <li class="login_drop_li"><i class="fa-solid fa-gift"></i>Gift Cards</li>
+                
+                </ul>
+            </div>
+        </div>
+
+        <!-- more -->
+
+        <div class="more">
+            <span class="more_lan">More<i class="fa-solid fa-angle-down"></i></span>
+            <div class="more_dropdown none">
+                <div class="pointer more_pointer"></div>
+                <ul class="more_dropdown_list">
+                  <li class="login_drop_li"><i class="more_icon fa fa-bell"></i>Notification Preferences</li>
+                  <li class="login_drop_li"><i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart</li>
+                  <li class="login_drop_li"><i class="more_icon fa fa-question"></i>24X7 Customer</li>
+                  <li class="login_drop_li"><i class="more_icon fa fa-line-chart"></i>Advertise</li>
+                  <li class="login_drop_li"><i class="more_icon fa fa-download"></i>Download App</li>
+                </ul> 
+                </div>
+        </div>
+
+        <!-- cart -->
+
+        <span class="cart_lan"><i class="fa-solid fa-cart-shopping"></i>CART</span>
+    </header>
+
+    <!-- category section -->
+
+    <section>
+        <div class="category_row">
+            <div class="category_col">
+                <img src="assets\top.webp" alt="">
+                
+                <div class="dropdown">
+                    <h5 class="dropbtn">Top Offers</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category_col">
+                <img src="assets\grocery.webp" alt="">
+                
+                <div class="dropdown">
+                    <h5 class="dropbtn">Grocery</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="category_col">
+                <img src="assets\mobile.webp" alt="">
+                <div class="dropdown">
+                <h5 class="dropbtn">Mobile</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="category_col">
+                <img src="assets\fashion.webp" alt="">
+                <div class="dropdown">
+                <h5 class="dropbtn">Fashion</h5>               
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="category_col">
+                <img src="assets\electronic.webp" alt="">
+                <div class="dropdown">
+                <h5 class="dropbtn">Electronics</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="category_col">
+                <img src="assets\home.webp" alt="">
+                <div class="dropdown">
+                <h5 class="dropbtn">Home </h5>
+
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category_col">
+                <img src="assets\appliance.webp" alt="">
+                <div class="dropdown">
+                <h5 class="dropbtn">Appliances </h5>               
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category_col">
+                <img src="assets\travel.webp" alt="">                
+                <div class="dropdown">
+                    <h5 class="dropbtn">Travel</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category_col">
+                <img src="assets\beauty.webp" alt="">     
+                <div class="dropdown">
+                    <h5 class="dropbtn">Beauty, Toys & more</h5>
+                    <div class="dropdown_content">
+                        <div class="header">
+                            <div class="col">
+                                <h3 class="product_title">Electronics</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Camera</a>
+                                <a href="#">Smart Home Automation</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">TV & Appliances</h3>
+                                <a href="#">Smart Ultra HD</a>
+                                <a href="#">Soundbars</a>
+                                <a href="#">Set Top Boxes</a>
+                            </div>
+
+                            <div class="col">
+                                <h3 class="product_title">Offer Zone</h3>
+                                <a href="#">Immersion Rod</a>
+                                <a href="#">Dish-wahser</a>
+                                <a href="#">Running Shoes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- banner section -->
+
+<section>
+    <div class="banner">
+        <div class="slider">
+            <img src="assets\slider1.jpg" alt="banner">
+            <img src="assets\slider2.png" alt="banner">
+            <img src="assets\banner2.jpg" alt="banner">
+            <img src="assets\slider3.png" alt="banner">
+            <img src="assets\slider4.png" alt="banner">
+            <img src="assets\slider5.webp" alt="banner">
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+<!-- common for all items -->
+
+<section>
+    <div class="card">
+      <div class="common_heading">
+        
+        <div class="common_heading_left">
+          <h1>End Of Business Best Sellers</h1>
+        </div>
+
+        <div class="common_heading_right">
+          <button>View All</button>
+        </div>
+      </div>
+      
+      <div class="common_row col_deals">
+          <div class="common_col">
+            <img src="assets\s1.webp" alt="" class="product.img">
+            <h3 class="product.title">Casual Shoes</h3>
+            <h4>Min 70% off</h4>
+            
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s2.webp" alt="" class="product.img">
+            <h3 class="product.title">Wrist Watches </h3>
+            <h4>Min 90% off</h4>
+          
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s3.webp" alt="" class="product.img">
+            <h3 class="product.title">Slippers & Flip Flops</h3>
+            <h4>Min 70% off</h4>
+            
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s4.webp" alt="" class="product.img">
+            <h3 class="product.title">Sandals & Floaters</h3>
+            <h4>Min 70% off</h4>
+            
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s5.webp" alt="" class="product.img">
+            <h3 class="product.title">Duffel Bags</h3>
+            <h4>Min 70% off</h4>
+            
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s6.webp" alt="" class="product.img">
+            <h3 class="product.title">Joggers & T-Shirts</h3>
+            <h4>Min 75% off</h4>
+            
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\s7.webp" alt="" class="product.img">
+            <h3 class="product.title">Hand Bags</h3>
+            <h4>Min 50% off</h4>
+           
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- common for all -->
+<section>
+  <div class="card">
+    <div class="common_heading">
+      
+      <div class="common_heading_left">
+        <h1>Best of Electronics</h1>
+      </div>
+
+      <div class="common_heading_right">
+        <button>View All</button>
+      </div>
+    </div>
+    
+    <div class="common_row col_electronic">
+        <div class="common_col">
+          <img src="assets\e1.webp" alt="" class="product.img">
+          <h3 class="product.title">Top Mirrorless Cameras</h3>
+          <h4>SHOP NOW!</h4>
+          <h6 class="price">CANON,SONY & MORE</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e2.webp" alt="" class="product.img">
+          <h3 class="product.title">Premium Power Banks</h3>
+          <h4>SHOP NOW!</h4>
+          <h6 class="price">MI, REALME & MORE</h6>
+          <ion-icon name="bag-add-outline" id="add_cart"></ion-icon><div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e3.webp" alt="" class="product.img">
+          <h3 class="product.title">Best Of Shavers</h3>
+          <h4>Up To 30% off</h4>
+          <h6 class="price">Starts From <i class="fa-solid fa-indian-rupee-sign"></i> 6000</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e4.webp" alt="" class="product.img">
+          <h3 class="product.title">Printers</h3>
+          <h4>Starts From <i class="fa-solid fa-indian-rupee-sign"></i> 6000</h4>
+          <h6 class="price">HP</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e5.webp" alt="" class="product.img">
+          <h3 class="product.title">ViewSonic Moniters</h3>
+          <h4>Up To 30% off</h4>
+          <h6 class="price">Starts From <i class="fa-solid fa-indian-rupee-sign"></i> 6000</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e6.webp" alt="" class="product.img">
+          <h3 class="product.title">Moniters</h3>
+          <h4>Up To 30% off</h4>
+          <h6 class="price">Starts From <i class="fa-solid fa-indian-rupee-sign"></i> 6000</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+
+        <div class="common_col">
+          <img src="assets\e7.webp" alt="" class="product.img">
+          <h3 class="product.title">Monitor</h3>
+          <h4>Up To 30% off</h4>
+          <h6 class="price">Starts From <i class="fa-solid fa-indian-rupee-sign"></i> 6000</h6>
+          <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- common for all -->
+  <section>
+    <div class="card">
+      <div class="common_heading">
+        
+        <div class="common_heading_left">
+          <h1>Health & Care</h1>
+        </div>
+
+        <div class="common_heading_right">
+          <button>View All</button>
+        </div>
+      </div>
+      
+      <div class="common_row col_deals">
+          <div class="common_col">
+            <img src="assets\g1.webp" alt="" class="product.img">
+            <h3 class="product.title">Tea Powder</h3>
+            <h4>Up To 70% off</h4>
+            <h6 class="price">Tata, Liptop & More<i class="fa-solid fa-indian-rupee-sign"></i> 6000</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g2.webp" alt="" class="product.img">
+            <h3 class="product.title">Dry Fruits</h3>
+            <h4>Up To 75% off</h4>
+            <h6 class="price">Happilo, Farmley & More</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g3.webp" alt="" class="product.img">
+            <h3 class="product.title">Self Help Books</h3>
+            <h4>Min 20% Off</h4>
+            <h6 class="price">Nepolean Hill, Joseph Murphy...</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g4.webp" alt="" class="product.img">
+            <h3 class="product.title">Breakfast Careal</h3>
+            <h4>Up To 75% Off</h4>
+            <h6 class="price">Oats Muesli & more</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g5.webp" alt="" class="product.img">
+            <h3 class="product.title">Academic Books</h3>
+            <h4>Under <i class="fa-solid fa-indian-rupee-sign"></i> 299</h4>
+            <h6 class="price">Explore Now!</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g6.webp" alt="" class="product.img">
+            <h3 class="product.title">Cleaners & Detergents</h3>
+            <h4>Under<i class="fa-solid fa-indian-rupee-sign"></i>499</h4>
+            <h6 class="price"> Luv Lap, MeeMee& more</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+
+          <div class="common_col">
+            <img src="assets\g7.webp" alt="" class="product.img">
+            <h3 class="product.title">Baby CAre Essentials</h3>
+            <h4>Under<i class="fa-solid fa-indian-rupee-sign"></i>699</h4>
+            <h6 class="price"> Baby Soaps, Shampoos & more</h6>
+            <div class="cart_bag"><i class="fa-solid fa-bag-shopping" id="add_cart"></i></div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer_row">
+        <div class="footer_col_1">
+          
+          <div class="footer_heading">
+            <p>ABOUT</p>
+          </div>
+
+          <div class="footer_list">
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Flipkart Stories</a>
+            <a href="#">Press</a>
+            <a href="#">Flipkart Wholesales</a>
+          </div>
+        
+        </div>
+
+        <div class="footer_col_2">
+          <div class="footer_heading">
+            <p>HELP</p>
+          </div>
+
+          <div class="footer_list">
+            <a href="#">Payments</a>
+            <a href="#">Shipping</a>
+            <a href="#">Cancilation and returns</a>
+            <a href="#">FAQ</a>
+            <a href="#">Press</a>
+            <a href="#">Report Infrigment</a>
+          </div>
+
+        </div>
+
+        <div class="footer_col_3">
+          <div class="footer_heading">
+            <p>POLICY</p>
+          </div>
+
+          <div class="footer_list">
+            <a href="#">Return Policy</a>
+            <a href="#">Term of Use</a>
+            <a href="#">Security</a>
+            <a href="#">Privacy</a>
+            <a href="#">Site Map</a>
+            <a href="#">ERP Compliance</a>
+          </div>
+
+        </div>
+
+        <div class="footer_col_4">
+          <div class="footer_heading">
+            <p>SOCIAL</p>
+          </div>
+
+          <div class="footer_list">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">You Tube</a>
+            
+          </div>
+
+        </div>
+
+        <div class="footer_col_5">
+          <div class="footer_heading">
+            <p>Mail Us</p>
+          </div>
+
+          <div class="footer_list">
+          <p>Flipkart Internet Private Limited,
+            Buildings Alyssa, Begonia &          
+            Clove Embassy Tech Village,          
+            Outer Ring Road, Devarabeesanahalli Village,          
+            Bengaluru, 560103,          
+            Karnataka, India</p>
+          </div>
+
+        </div>
+
+        <div class="footer_col_6">
+          <div class="footer_heading">
+            <p>Registered Office Address:</p>
+          </div>
+
+          <div class="footer_list">
+          <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia & </p>         
+            <p>Clove Embassy Tech Village,</p>          
+            <p>Outer Ring Road, Devarabeesanahalli Village, </p>         
+            <p> 560103,</p>          
+            <p>Karnataka, India  </p>        
+            <p>CIN : U51109KA2012PTC066107</p>          
+            <p>Telephone: <span>044-45614700</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer_row2">
+        
+        <div class="footer_row2_col">
+          <p><i class="fa-solid fa-bag-shopping"></i>Sell On Flipkart</p>
+        </div>
+        
+        <div class="footer_row2_col">
+          <p><i class="fa-solid fa-star"></i>Advertise</p>
+        </div>
+
+        <div class="footer_row2_col">
+          <p><i class="fa-solid fa-gift"></i>Gift Cards</p>
+        </div>
+
+        <div class="footer_row2_col">
+          <p><i class="fa-solid fa-question"></i>Help Center</p>
+        </div>
+
+        <div class="footer_row2_col">
+          <p>© 2007-2023 Flipkart.com</p>
+        </div>
+
+        <div class="footer_row2_col">
+          <img src="assets\payment.svg" alt="payments">
+        </div>
+        
+      </div>
+    </footer>
+  </body>
+  </html>

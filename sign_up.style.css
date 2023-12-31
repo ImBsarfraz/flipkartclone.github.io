@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.sign_up_main {
+    width: 600px;
+    height: 500px;
+    background-color: #2874f0;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.sign_up_sec1{
+    background-color: #2874f0;
+    height: 100%;
+    width: 40%;
+    
+}
+.sign_up_sec1 img{
+    position: relative;
+    top: 230px;
+    left: 10px;
+}
+.sign_up_main .sign_up_sec1 h1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.sign_up_main .sign_up_sec1 p{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    color: white;
+}
+.sign_up_sec2{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.sign_up_sec2 input{
+    width: 100%;
+    color: #6f6f70;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #2874f0;
+}
+
+.sign_up_sec2 p{
+    position: relative;
+    top: 50px;
+    color: #6f6f70;
+    font-size: 12px;
+}
+
+.sign_up_sec2 .button3 input{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #f28b33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+/* .sign_up_sec2 .button3 input:hover{
+    color: white;
+} */
+
+.sign_up_sec2 .button4 input{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 50px;
+    color: blue;
+    background-color: #c1cdde;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 4px 5px 5px #b1b1b3;
+    
+
+}
+.sign_up_sec2 .button4 input:hover{
+    background-color: white;
+    color: blue;
+}
+
+.sign_up_sec2 .account{
+    position: relative;
+    top: 300px;
+    left:50px;
+}
+.sign_up_sec2 a{
+    text-decoration: none;
+}
+
